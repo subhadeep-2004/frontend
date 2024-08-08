@@ -118,6 +118,13 @@ const Disease = () => {
         )}
       </div>
     </Container>
+
+    
+
+
+
+
+        
   );
 };
 
