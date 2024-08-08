@@ -55,7 +55,7 @@ const DiseasePrecautionCard = ({ image, name, precautions }) => (
     </div>
     <div>
     <div className='flex items-center justify-center'>
-      <p className='sm:text-xl  text-md font-semibold text-gray-700 pt-3 pb-1 '> Preacution For: <span className='text-teal-500'>{name}</span></p>
+      <p className='sm:text-xl  text-md font-semibold text-gray-700 pt-3 pb-1 '> Precaution For: <span className='text-teal-500'>{name}</span></p>
       </div>
       <ul>
         {precautions.map((precaution, index) => (
